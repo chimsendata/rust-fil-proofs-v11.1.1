@@ -203,7 +203,8 @@ mod tests {
 
     #[test]
     fn test_cores() {
-        core_groups(2);
+        let cores = core_custom(Stirng::from(""));
+        println!("{:?}",cores);
     }
 
     #[test]
